@@ -31,13 +31,16 @@ function getDatabaseConfig(): TypeOrmModuleOptions {
   // Fall back to default config
   return {
     type: 'postgres',
-    host: process.env.DB_HOST || 'localhost',
+    host: process.env.DB_HOST || 'db.bxoqdcntcejhcriwzzdt.supabase.co',
     port: parseInt(process.env.DB_PORT || '5432', 10),
     username: process.env.DB_USERNAME || 'postgres',
     password: process.env.DB_PASSWORD || 'postgres',
-    database: process.env.DB_NAME || 'job_matching',
+    database: process.env.DB_NAME || 'postgres',
     entities: [__dirname + '/../**/*.entity{.ts,.js}'],
     synchronize: false,
+    ssl: {
+      rejectUnauthorized: false,
+    },
     logging: true,
   };
 }
