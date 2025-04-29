@@ -1,0 +1,30 @@
+{
+  "candidates": [
+    {
+      "name": "Celena Chang",
+      "summary": "Formerly at Flatiron Health; expert in React, TypeScript, PostgreSQL; CS grad from UC Berkeley."
+    },
+    {
+      "name": "Alonso Koumba",
+      "summary": "Ex-Google engineer; expert in Python and PostgreSQL; CS grad from Stanford."
+    },
+    {
+      "name": "Calvin Goah",
+      "summary": "Engineer at IXL Learning; skilled in Node.js, React, PostgreSQL; CS grad from Columbia."
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Sieve",
+      "description": "Product involving SDK development; uses Next.js, Python, Redis."
+    },
+    {
+      "title": "Avoca",
+      "description": "Company focused on AI Agents; stack includes PostgreSQL and cloud services."
+    },
+    {
+      "title": "Koodos",
+      "description": "Platform for data pipelines; uses Kafka and ClickHouse."
+    }
+  ]
+}
